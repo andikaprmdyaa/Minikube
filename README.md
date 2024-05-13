@@ -108,4 +108,4 @@ status:
 
 #### 4. What do you think are the benefits of using Kubernetes manifest files? Recall your experience in deploying the app manually and compare it to your experience when deploying the same app by applying the manifest files (i.e., invoking `kubectl apply -f` command) to the cluster
 
-With Kubernetes manifest files, we can set up our application just the way we want. This helps us control how the app's infrastructure is set up, making it simpler to manage.
+With Kubernetes manifest With Kubernetes manifest files, we have the flexibility to define our application's setup precisely as we need it. This not only allows us to tailor the infrastructure to our requirements but also ensures consistency across deployments. By encapsulating configuration details in manifest files, we simplify the management of our application, reducing the risk of human error. Moreover, using manifest files enables version control, facilitating easier tracking and rollback of changes. Overall, leveraging Kubernetes manifest files significantly streamlines the deployment process and enhances the overall manageability of our applications
